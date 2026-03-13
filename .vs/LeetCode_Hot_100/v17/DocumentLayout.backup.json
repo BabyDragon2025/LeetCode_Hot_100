@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LeetCode\\Hot100\\LeetCode_Hot_100\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68477366-D337-4E9C-B82C-A06ECFA2CE65}|LeetCode_Hot_100\\LeetCode_Hot_100.vcxproj|D:\\LeetCode\\Hot100\\LeetCode_Hot_100\\LeetCode_Hot_100\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68477366-D337-4E9C-B82C-A06ECFA2CE65}|LeetCode_Hot_100\\LeetCode_Hot_100.vcxproj|solutionrelative:LeetCode_Hot_100\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cpp",
+              "DocumentMoniker": "D:\\LeetCode\\Hot100\\LeetCode_Hot_100\\LeetCode_Hot_100\\Test.cpp",
+              "RelativeDocumentMoniker": "LeetCode_Hot_100\\Test.cpp",
+              "ToolTip": "D:\\LeetCode\\Hot100\\LeetCode_Hot_100\\LeetCode_Hot_100\\Test.cpp*",
+              "RelativeToolTip": "LeetCode_Hot_100\\Test.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-13T09:03:14.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
