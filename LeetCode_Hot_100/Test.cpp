@@ -23,6 +23,28 @@ public:
 };
 */
 
+//×ÖÄ¸ÒìÎ»´Ê·Ö×é
+/*
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<string, vector<string>> m;
+        for (string& str : strs)
+        {
+            string key = str;
+            sort(key.begin(), key.end());
+            m[key].emplace_back(str);
+        }
+        vector<vector<string>> v;
+        for (auto e = m.begin(); e != m.end(); e++)
+        {
+            v.emplace_back(e->second);
+        }
+        return v;
+    }
+};
+*/
+
 int main()
 {
 
