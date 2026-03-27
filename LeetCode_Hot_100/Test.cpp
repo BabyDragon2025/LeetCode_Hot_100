@@ -221,6 +221,44 @@ public:
 };
 */
 
+
+//找到字符串中所有字母异位词
+/*
+class Solution {
+public:
+    vector<int> findAnagrams(string s, string p) {
+        int n=s.size();
+        unordered_map<char,int> umap1;
+        unordered_map<char,int> umap2;
+        vector<int> res;
+        for(auto e:p)
+        {
+            umap1[e]++;
+        }
+        for(int l=0,r=0;r<n;r++)
+        {
+            umap2[s[r]]++;
+            if(r-l+1>p.size())
+            {
+                if(umap2[s[l]]==1)
+                {
+                    umap2.erase(s[l]);
+                }
+                else
+                {
+                    umap2[s[l]]--;
+                }
+                l++;
+            }
+            if(umap1==umap2)
+            {
+                res.push_back(l);
+            }
+        }
+        return res;
+    }
+};*/
+
 int main()
 {
 
