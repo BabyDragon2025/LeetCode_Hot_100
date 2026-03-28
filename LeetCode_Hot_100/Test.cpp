@@ -259,6 +259,30 @@ public:
     }
 };*/
 
+
+//和为k的子数组
+/*
+class Solution {
+public:
+    int subarraySum(vector<int>& nums, int k) {
+        int n=nums.size();
+        vector<int> v(n+1);
+        for(int i=0;i<n;i++)
+        {
+            v[i+1]=v[i]+nums[i];
+        }
+
+        unordered_map<int,int> umap;
+        int res=0;
+        for(auto e:v)
+        {
+            res+=umap.count(e-k)?umap[e-k]:0;
+            umap[e]++;
+        }
+        return res;
+    }
+};*/
+
 int main()
 {
 
