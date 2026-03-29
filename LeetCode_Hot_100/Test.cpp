@@ -335,6 +335,31 @@ public:
     }
 };*/
 
+
+//合并区间
+/*
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        sort(intervals.begin(),intervals.end());
+        vector<vector<int>> res;
+        int n=intervals.size();
+    for(int i=0;i<n;i++)
+    {
+        int a=intervals[i][1];
+        int t=i+1;
+        while(t<n && a>=intervals[t][0])
+        {
+            a=max(a,intervals[t][1]);
+            t++;
+        }
+        res.push_back({intervals[i][0],a});
+        i=t-1;
+    }
+    return res;
+    }
+};*/
+
 int main()
 {
 
