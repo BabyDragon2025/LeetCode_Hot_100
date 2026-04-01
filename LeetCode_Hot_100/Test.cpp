@@ -385,6 +385,29 @@ public:
     }
 };*/
 
+
+//除自身以外的数组的乘积
+/*
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        int n=nums.size();
+        vector<int> ans(n,1);
+        ans[0]=1;
+        int tmp=1;
+        for(int i=1;i<n;i++)
+        {
+            ans[i]=ans[i-1]*nums[i-1];
+        }
+        for(int j=n-2;j>=0;j--)
+        {
+            tmp*=nums[j+1];
+            ans[j]*=tmp;
+        }
+        return ans;
+    }
+};*/
+
 int main()
 {
 
